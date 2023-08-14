@@ -5,3 +5,10 @@ export type Post = {
   image?: string | null;
   text: string;
 };
+
+export type Profile = {
+  username: string;
+  fullname: string;
+  avatar: string;
+  bio: string;
+};
