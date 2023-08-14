@@ -10,14 +10,18 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Post } from "../types";
+import { Link as RouterLink } from "react-router-dom";
+import CardActionArea from "@mui/material/CardActionArea";
+import TestIds from "../test-ids";
 
 export type PostCardProps = {
   post: Post;
+  to?: string;
 };
 
-export default function PostCard({ post }: PostCardProps) {
+export default function PostCard({ post, ...props }: PostCardProps) {
   return (
-    <Card sx={{ mb: 3 }}>
+    <Card sx={{ mb: 3 }} data-testid={TestIds.post} data-postid={post.id}>
       <CardHeader
         avatar={<Avatar src="/favicon.svg" />}
         action={
@@ -25,22 +29,42 @@ export default function PostCard({ post }: PostCardProps) {
             <MoreVertIcon />
           </IconButton>
         }
-        title={post.fullname}
-        subheader={post.username}
+        title={<span data-testid={TestIds.postFullname}>{post.fullname}</span>}
+        subheader={
+          <span data-testid={TestIds.postUsername}>@{post.username}</span>
+        }
       />
-      {post.image ? (
-        <CardMedia component="img" height="180" image={post.image} />
-      ) : null}
-      <CardContent>
-        <Typography variant="body2" color="text.secondary">
-          {post.text}
-        </Typography>
-      </CardContent>
+      <CardActionArea
+        data-testid={TestIds.postActionArea}
+        LinkComponent={RouterLink}
+        disableTouchRipple
+        disableRipple
+        disabled={!props.to}
+        {...props}
+      >
+        {post.image ? (
+          <CardMedia
+            data-testid={TestIds.postImage}
+            component="img"
+            height="180"
+            image={post.image}
+          />
+        ) : null}
+        <CardContent>
+          <Typography
+            data-testid={TestIds.postText}
+            variant="body2"
+            color="text.secondary"
+          >
+            {post.text}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
+        <IconButton data-testid={TestIds.postLikeButton}>
           <FavoriteIcon />
         </IconButton>
-        <IconButton aria-label="share">
+        <IconButton data-testid={TestIds.postShareButton}>
           <ShareIcon />
         </IconButton>
       </CardActions>

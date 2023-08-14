@@ -7,6 +7,8 @@ import { FC, useState } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Switch from "@mui/material/Switch";
+import { Link as RouterLink } from "react-router-dom";
+import TestIds from "../test-ids";
 
 export type LayoutProps = {
   children: React.ReactNode;
@@ -32,15 +34,25 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AppBar position="fixed">
+      <AppBar position="fixed" data-darkmode={isDarkMode ? "true" : "false"}>
         <Container maxWidth="sm">
           <Toolbar>
-            <Typography variant="h6" noWrap component="div">
+            <Typography
+              variant="h6"
+              component={RouterLink}
+              noWrap
+              to="/"
+              sx={{ color: "#fff", textDecoration: "none" }}
+            >
               Dapplets E2E Test Website
             </Typography>
             <Box sx={{ flexGrow: 1 }} />
             <Box sx={{ display: { xs: "flex" }, alignItems: "center" }}>
-              <Switch value={isDarkMode} onChange={handleDarkModeChange} />
+              <Switch
+                data-testid={TestIds.darkThemeSwitch}
+                value={isDarkMode}
+                onChange={handleDarkModeChange}
+              />
               <Typography variant="body1" noWrap>
                 Dark Mode
               </Typography>

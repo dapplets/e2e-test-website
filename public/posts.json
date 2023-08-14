@@ -1,93 +1,93 @@
 [
   {
-    "id": 10000,
+    "id": "10000",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "Dapplets Project disrupts this paradigm and creates technology that enables new kinds of applications - dapplets. These dapplets run on top of existing websites, in the websites' context, but out of the website owners' control. This new paradigm enables tons of brand new applications and business opportunities.",
     "image": "/images/dapplets-banner.png"
   },
   {
-    "id": 10001,
+    "id": "10001",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "In the internet business, as we know it now, only website owners can create and earn money from business processes that run on their websites. This is because ownership means full control over the users' communications."
   },
   {
-    "id": 10002,
+    "id": "10002",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "Dapplets technology also has a big social impact: it allows censorship-resistant user flows on centrally owned websites, even for banned content and banned users. It cancels out “cancel culture“ effectively"
   },
   {
-    "id": 10003,
+    "id": "10003",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "Dapplets is a true Web3 project: unstoppable, permissionless, anonymous, open-source, and decentralized, not only on the backend level but on the UX level too."
   },
   {
-    "id": 10004,
+    "id": "10004",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "The year 2020 was the year of deplatforming. Major social networks deprived millions of people of any information from the people they were following. On the other hand people are flooded with useless and unwelcome information."
   },
   {
-    "id": 10005,
+    "id": "10005",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "Someone who would like to acquire a holistic view, has to combine different information sources in his mind, which is challenging because of context switching. Usually people choose the simplest way and stay attached to a single source of information that is usually biased."
   },
   {
-    "id": 10006,
+    "id": "10006",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "The core of the issue is the fact that the owner of the communication channel has full control over the user’s attention. The decentralization proposed by the crypto community doesn’t solve this problem, because it operates on the infrastructure level, but the communication channel remains exclusively owned by a central party."
   },
   {
-    "id": 10007,
+    "id": "10007",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "We believe that the real source of the intermediary’s power is not purely technical. It is the people’s attention that intermediaries own exclusively. The exclusive control of the user’s attention and the ability to block any undesired information is the real source of their power. It allows intermediaries to deliver both content and its interpretation to the audience. Technically, they achieve this by controlling exclusively the website visited by users."
   },
   {
-    "id": 10008,
+    "id": "10008",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "The platform owner completely determines which business processes are available to community members and which are not. This is also a kind of censorship, not in relation to opinions, but in relation to the services available to members of the community. In general, the owner of the platform owns not only his platform, but also the community on it."
   },
   {
-    "id": 10009,
+    "id": "10009",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "All our knowledge about augmented reality is taken from games, science-fiction films and AR-apps for smartphones. Essentially, it is about extending the original content with additional visual elements (known as “augmentations”). The position of an augmentation and its life-cycle may be anchored to its target content object or the view."
   },
   {
-    "id": 10010,
+    "id": "10010",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "Although social platforms should only provide a technical service, usually they end up misusing their power to shape and manipulate communication inside сommunities. A community then experiences this as censoring posts and canceling accounts.\nThe way in which decentralization is usually applied now does not help. It makes the site owner even more powerful by enhancing his ability to perform censorship. This is because even though the infrastructure becomes decentralized, the owner’s role remains its central power.\nThe Augmented Web platform breaks this monopoly and begins a transition to a new web, where any centralized website owner becomes forcibly decentralized on the UX level.\nThis means that even if a provider (like any social network), misuses their power and restricts some content, accounts or operations, the community always remains in power to overcome these restrictions."
   },
   {
-    "id": 10011,
+    "id": "10011",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "As a result of this forced decentralization, the power of the website owner gets restricted to the services he provides. It becomes impossible for a centralized owner to take the community hostage and forcibly extract profits.\nBecause in case of any pressure or service disruptions, any community member can redirect the troubling workflow to another service provider."
   },
   {
-    "id": 10012,
+    "id": "10012",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "The bigger the community, the more reasons for its self-sovereignty.\nWe envision a world where communities become self-sovereign, even if they were created by a central actor. Like children who become independent of their parents when they grow up."
   },
   {
-    "id": 10013,
+    "id": "10013",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "There are many business cases which show that embedding your own business processes into third party communities is better than trying to bring the audience to your own website. Executing your business processes in a place where people have already established communities could be the better choice.\nCommenting and content tagging, for example, is much more efficient in the original context than anywhere else.\nIt becomes possible to embed new services into legacy websites even if the website is not prepared to run them."
   },
   {
-    "id": 10014,
+    "id": "10014",
     "fullname": "Dapplets Project",
-    "username": "@dapplets",
+    "username": "dapplets",
     "text": "The сontent (a web page or video stream) is assumed to exist independently from augmentation dapplets.\nTo keep the interface of the dapplet stable and straightforward, we introduce an Adapter. The adapter parses the content's raw data into a set of content objects. A dapplet should operate strictly with the content model and avoid any direct operation with the content.\nIf the structure of the content changes, a new version of an adapter should be released keeping the content model and thus the interface of the dapplet stable. This keeps all the dapplets based on this content adapter working despite the changes in the content. An adapter is a kind of driver for the content.\nThere are two kinds of adapters - content adapter and viewport adapter. The content adapter embeds an augmentation relative to its content object (like a “verified” check mark over the avatar icon). Viewport adapter puts it relative to the content viewport (like a floating button).\nDifferent content adapters for different websites can export the same public functions. In this case a dapplet that uses this functionality will work on all of the websites."
   }
 ]
