@@ -33,7 +33,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="fixed">
-        <Container  maxWidth="sm">
+        <Container maxWidth="sm">
           <Toolbar>
             <Typography variant="h6" noWrap component="div">
               Dapplets E2E Test Website
@@ -48,7 +48,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
           </Toolbar>
         </Container>
       </AppBar>
-      <Container sx={{ mt: 10 }} maxWidth="sm">{children}</Container>
+      <>{children}</>
     </ThemeProvider>
   );
 };

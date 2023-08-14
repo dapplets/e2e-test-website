@@ -17,7 +17,7 @@ export type PostCardProps = {
 
 export default function PostCard({ post }: PostCardProps) {
   return (
-    <Card sx={{ mb: 2 }}>
+    <Card sx={{ mb: 3 }}>
       <CardHeader
         avatar={<Avatar src="/favicon.svg" />}
         action={

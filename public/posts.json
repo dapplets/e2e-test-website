@@ -53,5 +53,41 @@
     "fullname": "Dapplets Project",
     "username": "@dapplets",
     "text": "The platform owner completely determines which business processes are available to community members and which are not. This is also a kind of censorship, not in relation to opinions, but in relation to the services available to members of the community. In general, the owner of the platform owns not only his platform, but also the community on it."
+  },
+  {
+    "id": 10009,
+    "fullname": "Dapplets Project",
+    "username": "@dapplets",
+    "text": "All our knowledge about augmented reality is taken from games, science-fiction films and AR-apps for smartphones. Essentially, it is about extending the original content with additional visual elements (known as “augmentations”). The position of an augmentation and its life-cycle may be anchored to its target content object or the view."
+  },
+  {
+    "id": 10010,
+    "fullname": "Dapplets Project",
+    "username": "@dapplets",
+    "text": "Although social platforms should only provide a technical service, usually they end up misusing their power to shape and manipulate communication inside сommunities. A community then experiences this as censoring posts and canceling accounts.\nThe way in which decentralization is usually applied now does not help. It makes the site owner even more powerful by enhancing his ability to perform censorship. This is because even though the infrastructure becomes decentralized, the owner’s role remains its central power.\nThe Augmented Web platform breaks this monopoly and begins a transition to a new web, where any centralized website owner becomes forcibly decentralized on the UX level.\nThis means that even if a provider (like any social network), misuses their power and restricts some content, accounts or operations, the community always remains in power to overcome these restrictions."
+  },
+  {
+    "id": 10011,
+    "fullname": "Dapplets Project",
+    "username": "@dapplets",
+    "text": "As a result of this forced decentralization, the power of the website owner gets restricted to the services he provides. It becomes impossible for a centralized owner to take the community hostage and forcibly extract profits.\nBecause in case of any pressure or service disruptions, any community member can redirect the troubling workflow to another service provider."
+  },
+  {
+    "id": 10012,
+    "fullname": "Dapplets Project",
+    "username": "@dapplets",
+    "text": "The bigger the community, the more reasons for its self-sovereignty.\nWe envision a world where communities become self-sovereign, even if they were created by a central actor. Like children who become independent of their parents when they grow up."
+  },
+  {
+    "id": 10013,
+    "fullname": "Dapplets Project",
+    "username": "@dapplets",
+    "text": "There are many business cases which show that embedding your own business processes into third party communities is better than trying to bring the audience to your own website. Executing your business processes in a place where people have already established communities could be the better choice.\nCommenting and content tagging, for example, is much more efficient in the original context than anywhere else.\nIt becomes possible to embed new services into legacy websites even if the website is not prepared to run them."
+  },
+  {
+    "id": 10014,
+    "fullname": "Dapplets Project",
+    "username": "@dapplets",
+    "text": "The сontent (a web page or video stream) is assumed to exist independently from augmentation dapplets.\nTo keep the interface of the dapplet stable and straightforward, we introduce an Adapter. The adapter parses the content's raw data into a set of content objects. A dapplet should operate strictly with the content model and avoid any direct operation with the content.\nIf the structure of the content changes, a new version of an adapter should be released keeping the content model and thus the interface of the dapplet stable. This keeps all the dapplets based on this content adapter working despite the changes in the content. An adapter is a kind of driver for the content.\nThere are two kinds of adapters - content adapter and viewport adapter. The content adapter embeds an augmentation relative to its content object (like a “verified” check mark over the avatar icon). Viewport adapter puts it relative to the content viewport (like a floating button).\nDifferent content adapters for different websites can export the same public functions. In this case a dapplet that uses this functionality will work on all of the websites."
   }
 ]
