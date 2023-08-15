@@ -60,7 +60,7 @@ export default function PostCard({ post, ...props }: PostCardProps) {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions disableSpacing>
+      <CardActions data-testid={TestIds.postButtonsArea} disableSpacing>
         <IconButton data-testid={TestIds.postLikeButton}>
           <FavoriteIcon />
         </IconButton>

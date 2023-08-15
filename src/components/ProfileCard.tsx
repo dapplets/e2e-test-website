@@ -6,6 +6,9 @@ import { Profile } from "../types";
 import TestIds from "../test-ids";
 import CardMedia from "@mui/material/CardMedia";
 import Box from "@mui/material/Box";
+import CardActions from "@mui/material/CardActions";
+import IconButton from "@mui/material/IconButton";
+import EditIcon from '@mui/icons-material/Edit';
 
 export type ProfileCardProps = {
   profile: Profile;
@@ -47,6 +50,11 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
           {profile.bio}
         </Typography>
       </CardContent>
+      <CardActions data-testid={TestIds.profileButtonsArea} disableSpacing>
+        <IconButton data-testid={TestIds.profileEditButton}>
+          <EditIcon />
+        </IconButton>
+      </CardActions>
     </Card>
   );
 }

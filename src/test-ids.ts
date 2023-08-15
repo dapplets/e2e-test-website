@@ -8,9 +8,12 @@ export default {
   profileUsername: "profile-username",
   profileFullname: "profile-fullname",
   profileBio: "profile-bio",
+  profileButtonsArea: "profile-buttons-area",
+  profileEditButton: "profile-edit-button",
 
   // POST
   post: "post",
+  postsContainer: "posts-container",
   postActionArea: "post-action-area",
   postUsername: "post-username",
   postFullname: "post-fullname",
@@ -18,4 +21,5 @@ export default {
   postText: "post-text",
   postLikeButton: "post-like-button",
   postShareButton: "post-share-button",
+  postButtonsArea: "post-buttons-area",
 };

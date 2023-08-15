@@ -4,6 +4,7 @@ import { useFetch } from "../hooks/useFetch";
 import { Post, Profile as ProfileDto } from "../types";
 import { Virtuoso } from "react-virtuoso";
 import ProfileCard from "../components/ProfileCard";
+import TestIds from "../test-ids";
 
 function Profile() {
   const { data: posts, loading } = useFetch<Post[]>("/posts.json");
@@ -23,6 +24,7 @@ function Profile() {
     <Container sx={{ mt: 10 }} maxWidth="sm">
       <ProfileCard profile={profile} />
       <Virtuoso
+        data-testid={TestIds.postsContainer}
         useWindowScroll
         data={posts}
         itemContent={(_, post) => (
